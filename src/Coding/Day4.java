@@ -28,7 +28,7 @@ public class Day4 {
         // \f untuk memajukan halaman,biasanya dipakai di printer
         System.out.println("Halaman 1 \fHalaman 2");
         // \xxxx untuk memasukkan unicode karaket
-        System.out.println("Halo Nama Saya Fiki \u2764");
+        System.out.println("Halo Nama Saya Fiki \uD83D\uDD25");
 
     }
 }
