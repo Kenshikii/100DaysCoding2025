@@ -17,5 +17,6 @@ public class Day19 {
         int angka3 = 130;
         byte angka4 = (byte) angka3;
         System.out.println(angka4);
+        
     }
 }
