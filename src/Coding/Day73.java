@@ -17,11 +17,11 @@ public class Day73 {
         while(true){
             System.out.print("Angka 1 : ");
             int angka1 = inp.nextInt();
-            System.out.print("Angka 2 :");
-            int angka2 = inp.nextInt();
-            if(angka1 < 0 || angka2 < 0){
+            if(angka1 < 0){
                 break;
             }else{
+                System.out.print("Angka 2 :");
+                int angka2 = inp.nextInt();
                 int hasil = angka1 + angka2;
                 System.out.println("Hasil : "+hasil);
             }
