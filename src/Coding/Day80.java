@@ -16,8 +16,8 @@ public class Day80 {
         array [2] = 9;
         int [] array1 = {1,2,3,4,5};
         System.out.println(array[1]);
-        for (int i = 1; i < array1.length; i++) {
-            System.out.println(i);
+        for (int i = 0; i < array1.length; i++) {
+            System.out.println(array1[i]);
         }
     }
 }
